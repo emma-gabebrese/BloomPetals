@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(243, 255, 243);
+   
+}
+ 
+.header-bar{
+    background-color: rgb(254, 152, 169);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+    
+
+}
+.text-color{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    
+    
+}
+.center-text{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.item{
+    color: gray;
+    text-align: center;
+        font-family: "Arsenal", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        p{
+            text-align: justify;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+      
+}
+.custom-title{
+    font-family: 'Arsenal', sans-serif;
+    font-size: 36px;
+    color: rgb(101, 100, 100);
+    font-weight: 700;
+    font-style: normal;
+}
+.image{
+    width: 150%;
+    height: auto;
+    max-width: 25%;
+    margin: 10px;
+    border-radius: 50%;
+   
+}
+.footer-bar{
+    background-color: rgb(254, 152, 169);
+    height: 40px;
+    
+}
+.tchek{
+    width: 20%;
+    /* height: auto;
+    max-width: 25%; */
+    border-radius: 50%;
+   
+}
+.custom-titleservices{
+    font-family: 'Arsenal', sans-serif;
+    font-family: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(101, 100, 100);
+
+}
+.separation-bar{
+    background-color: rgb(167, 166, 166);
+    height: 3px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.custom-titleentreprise{
+    font-family: 'Arsenal', sans-serif;
+    font-family: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(101, 100, 100);
+
+}
+.alignement-verticalimagetext{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.grid-container img{
+    width: 100%;
+    height: auto;
+}
+main{
+    background-color: white;
+    max-width: 90%;
+    max-height: 90%;
+    padding: 1em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.container-main{
+    display: flex;
+    justify-content: center;
+}
